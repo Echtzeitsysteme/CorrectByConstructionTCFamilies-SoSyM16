@@ -5,7 +5,7 @@ This repository documents the resources of the SHARE VM that belongs to the pape
 
 # VM metadata
 
-* URL: http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_RK_CorrectByConstructionTC_JVLC.vdi
+* URL: http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_RK_CorrectByConstructionTC_SoSyM.vdi
 * User: sharevm[A}es[D}tu-darmstadt[D}de ([A} = @, [D} = ., [E} = !)
 * Passsword: ShareVM[A}RealTime[E}
 
