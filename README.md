@@ -35,7 +35,7 @@ The Topology Control rules of kTC (and a number of other TC algorithms) can be f
 1. In eclipse, open the project *simonstrator-simrunner*
 2. Navigate to *config/rkluge/launch/"
 3. Right-click *GUIRunner-with-EMF.launch* and select *Run as -> GUIRunner-with-EMF*
-4. Type the file name *jvlc_complete_evaluation.xml* into the search bar.
+4. Type the file name *sosym_complete_evaluation.xml* into the search bar.
  * This file contains all parameters of the simulation (e.g., energy model, movement model, protocol stack, overlay application).
 5. Press *Start Simulation*
 6. Two windows should pop up
@@ -70,3 +70,17 @@ An example:
 * ```iter#001 iTC...(algo=D_KTC(id=1), kTCParameterK=1.41)``` Then, incremental the topology control algorithm is invoked (here: the traditional kTC with k=1.41). Afterwards, the required CPU time for the algorithm and the constraint checking are printed.
 * ```iter#001 bTC...(algo=D_KTC(id=1), kTCParameterK=1.41)``` For comparison reasons, the batch counterpart of the current algorithm is executed on a copy of the topology and runtime statistics are printed.
 * ```iter#001 iTC vs. bTC (CE+TC) wrt. [time=27.54 / LSMs=1.00]``` At the end of a Topology Control run, the costs of the incremental and batch algorithm are compared in terms of CPU time and link state modifications. In this case, the incremental algorithm needed 27.54 times longer compare to the batch algorithm. The link state modification count is identical in this iteration because the topology is processed for the first time.
+
+## How can I experiment with different algorithms?
+
+Proceed as explained in *How can I run a sample simulation?*, **but** before starting the simulation, exchange the value next to *incrementalAlgorithm* in the table on the left side of the simulation configuration window.
+
+The following algorithms are available. Please use the *name* as value for *incrementalAlgorithm*.
+ * Maxpower Topology Control (baseline, name=MAXPOWER_TC)
+ * kTC (original, name=D_KTC)
+ * Energy-Aware kTC (e-kTC, name=E_KTC)
+ * l*-kTC (name=LSTAR_KTC)
+ * XTC (name=XTC)
+ * Yao (name=Yao)
+ * Gabriel Graph (name=GG)
+ * Relative Neighborhood Graph (name=RNG)
