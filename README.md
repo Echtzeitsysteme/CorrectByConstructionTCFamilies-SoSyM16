@@ -1,5 +1,5 @@
 # CorrectByConstructionTCFamilies-SoSyM17
-This repository documents the resources of the SHARE VM that belongs to the paper *Roland Kluge, Michael Stein, Gergely Varró, Andy Schürr, Matthias Hollick, Max Mühlhäuser: "A Systematic Approach to Constructing Incremental Topology Control Algorithms Using Graph Transformation" **UNDER SUBMISSION at SoSyM**.
+This repository documents the resources of the SHARE VM that belongs to the paper *Roland Kluge, Michael Stein, Gergely Varró, Andy Schürr, Matthias Hollick, Max Mühlhäuser: "A Systematic Approach to Constructing Incremental Topology Control Algorithms Using Graph Transformation" (DOI: https://dx.doi.org/10.1007/s10270-017-0587-8)
 
 # VM metadata
 
